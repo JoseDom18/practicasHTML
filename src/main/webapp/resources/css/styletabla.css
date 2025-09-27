@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width: 400px;
+}
+
+th, td {
+	border: 1px solid rgb(160, 160, 160);
+	padding: 8px 10px;
+}
+
+td {
+	width: 50%;
+}
+
+.img {
+	width: 80px;
+	height: 120px;
+}
+
+.contedenor_padre {
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+}
+
+.cabecera {
+	display: flex;
+	justify-content: center;
+	margin: 48dp;	
+	height: 200px;
+}
+
+.cuadroCentrado {
+	display: flex;
+	justify-content: center;
+	width: 100dp;
+	height: wrap_content;
+	margin: 48dp;
+	background: blue;
+	padding: 30dp;
+	
+}
+
+.botontabla {
+	text-align: center;
+	vertical-align: middle;
+}
