@@ -64,6 +64,29 @@
 				</form>
 			</div>
 		</div>
+		<section>
+			<header>
+				<h1>Selecciona una imagen</h1>
+			</header>
+			<figure>
+				<figcaption>haz click en el logo al que quieras ir</figcaption>
+				<img src="resources/images/Asset 1.png" alt="logos de paginas"
+					usemap="#logos" class="logo" />
+				<map name="logos">
+					<area shape="rect" coords="5, 89, 120, 142"
+						href="https://www.youtube.com/" alt="YouTube">
+
+					<area shape="rect" coords="130, 89, 275, 142"
+						href="https://www.google.com/" alt="Google">
+
+					<area shape="rect"
+						coords="58, 165, 220, 230"
+						href="https://www.freecodecamp.org/" alt="FreeCodeCamp">
+				</map>
+			</figure>
+
+
+		</section>
 	</main>
 </body>
 </html>
